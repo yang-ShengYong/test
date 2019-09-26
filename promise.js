@@ -1,7 +1,7 @@
 
 var p1 = new Promise(function () {
   $.ajax({
-    url: './chinese.txt',
+    url: './ajaxRequest.txt',
     datatype: 'json',
     success (data) {
       console.log(data)
