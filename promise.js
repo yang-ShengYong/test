@@ -7,7 +7,7 @@ var p1 = new Promise(function () {
       console.log(data)
     },
     error () {
-      console.log('凉了')
+      console.log('Ajax请求凉了，可能不在服务器环境下')
     }
   })
 })
