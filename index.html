@@ -5,9 +5,26 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Document</title>
-  <script src="./node_modules/jquery/dist/jquery.min.js"></script>
+  <style>
+  .div{
+    width: 0;height: 0;
+    border-top: 40px solid transparent;
+    border-bottom: 40px solid #000;
+    border-left: 40px solid transparent;
+    border-right: 40px solid transparent;
+  }
+  
+  </style>
 </head>
 <body>
-  <script src="promise.js"></script>
+  <div class="div"></div>
+  <div class="div2"></div>
+  <script src="jquery.js"></script>
+  <script>
+    $(function () {
+      $('.div2').css({'width', '100px'})
+
+    })
+  </script>
 </body>
 </html>
